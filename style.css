@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 62%;
+  height: auto;
+  background-image: url('img_graph.png');
+}
+
+#interesting {
+background-color:#ada8ad ;
+font-family: cursive
+}
+
+.important{
+  text-align: center;
+  color:#564159;
+}
+
+body{
+  background-color: #d1dcde
+}
+
+h1{
+ background-color: white;
+  color: #332c27;
+}
+
