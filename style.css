@@ -3,6 +3,145 @@ html {
   width: 100%;
 }
 
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+
+    /* Add a background color or image */
+    background-color: white;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+color: pink;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+h2 {
+color: deeppink;
+  font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h3 {
+/* color: hotpink; */
+  font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+p {
+color: green;
+  text-align: center
+}
+
+a:link {    /* unvisited link */
+  color: blue;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+a:visited {    /* visited link */
+  color: lightblue;
+}
+
+a:hover {    /* mouse over link */
+  color: cornflowerblue;
+  border-bottom: none;
+}
+
+a:active {    /* active link */
+  color: #00ffff;
+}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+list-style: square inside url("sqpurple.gif");
+  list-style-type: lower-alpha;
+
+
+}
+
+ul li {
+
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color:  #008CBA;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+.header {
+
+}
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+
+}
+
 img {
   width: 62%;
   height: auto;
