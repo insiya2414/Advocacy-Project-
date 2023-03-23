@@ -133,13 +133,42 @@ button {
 
 /* Example: This styles elements with class="header"*/
 .header {
-
+ color: red;
+  font-style: italic;
+  padding-top:50px;
+  margin-bottom:50px;
+  text-align:center;
 }
 
 
 /* Example: This styles an element with an id="header-img" */
 #header-img {
+ color: red;
+  font-style: italic;
+  max-width:150px;
+}
+#header-left {
+ color: red;
+  font-style: italic;
+    width:100px;
 
+}
+#header-right {
+ color: red;
+  font-style: italic;
+  width:100px;
+}
+.header-button {
+ color: red;
+  font-style: italic;
+  background-color: mediumpurple;
+  text-align:center;
+  font-size:30px;
+  padding:10px;
+  margin:5px;
+  border:100px;
+  cursor:pointer;
+  
 }
 
 img {
